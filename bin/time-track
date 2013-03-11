@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "time_track"
+
+TimeTrack::CLI.start(ARGV)
