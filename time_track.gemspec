@@ -21,6 +21,5 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'activesupport'
   gem.add_dependency 'thor'
   gem.add_dependency 'chronic'
-  gem.add_dependency 'pp'
 
 end
