@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = TimeTrack::VERSION
   gem.authors       = ["Guillaume Garcera"]
   gem.email         = ["guillaume@ciblo.net"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Various extraction from hamster time tracking}
+  gem.summary       = %q{Various extraction from hamster time tracking}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
@@ -21,5 +21,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'activesupport'
   gem.add_dependency 'thor'
   gem.add_dependency 'chronic'
+  gem.add_dependency 'pp'
 
 end
